@@ -2,7 +2,7 @@
 
 # Shap_Relational_Exp
 
-In this project, we are explaining the predictions made by Machine Learning Model using SHAP (https://github.com/slundberg/shap). Here we have tried to represent SHAP relational explanations. The Yelp review data is used in this experiment and the data is available in the link (https://drive.google.com/drive/folders/1o-UmrtdLdYVTvUhWd75khzSqppP1upPq?usp=sharing)
+In this project, we are explaining the predictions made by Machine Learning Model using SHAP (https://github.com/slundberg/shap). Here we have tried to represent SHAP relational explanations. The Yelp review data is used in this experiment and the data is available in the link (https://drive.google.com/drive/folders/1o-UmrtdLdYVTvUhWd75khzSqppP1upPq?usp=sharing). Here 2000 reviews (1000 positive reviews and 1000 negative reviews) have been used in the experiment. 
 
 # Run the Code
  1. To get the visualized explanation outcomes in Relational_SHAP_EXPP notebooke run the command Run_program_all().
