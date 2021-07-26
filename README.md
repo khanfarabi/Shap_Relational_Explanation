@@ -5,7 +5,11 @@
 In this project, we are explaining the predictions made by Machine Learning Model using SHAP (https://github.com/slundberg/shap). Here we have tried to represent SHAP relational explanations. The Yelp review data is used in this experiment and the data is available in the link (https://drive.google.com/drive/folders/1o-UmrtdLdYVTvUhWd75khzSqppP1upPq?usp=sharing)
 
 # Run the Code
- To get the visualized explanation outcomes in Relational_SHAP_EXPP notebooke run the command Run_program_all().
+ 1. To get the visualized explanation outcomes in Relational_SHAP_EXPP notebooke run the command Run_program_all().
+
+ 2. In order to get explanation accuracy for the both word explanation, and relational explanations respectively in Relational_Shap_Accuracy notebook shap_accuracy() command needs to be run. 
+ 
+ 
 
 # Demo Output 
 Review 12 is Truly Predicted: Positive 
@@ -13,6 +17,20 @@ Review 12 is Truly Predicted: Positive
 SHAP Relational Explanation: '131', '687', '593', '703', '150', '601', '212', '142'. Here '131', '687', '593', '703', '150', '601', '212', and  '142' are related reviews to 12 and have positive contribution to the prediction. 
 
 SHAP Words Explanation: 'enjoy', 'drinks', 'show', 'champagne'. Here  are the word explanations
+
+# Demo Explanation Accuracy
+Word_Explanation_Average_Accuracy_Shap
+
+0.278422782037238
+
+
+Relational_Explanation_Average_Accuracy_Shap
+
+0.5006702073849252
+
+
+
+The explanation accuracy is computed separately for the word explanations, and relational explanations respectively. The manuall self-annotated (by human) process are considered to generate standard word explanations per query. The nerural network based embedding (Doc2Vec) is used to generate the standard relational explanations per query. Here, the standard explanations are considered as true explanations for the query being truly predicted as a specifice class. We have computed the percentage of SHAP relational model's explanations match with the standard explanations, and represent as explanation accuracy. In order to avoid biasness, we have kept the number of explanations  equal for the both standard explanations and SHAP relational model's explanations while computing explanation accuracy. Specifically, we have used first 5 explanations for the SHAP relational model's explanations based on the shap values, and standard explanations respectively. 
 
 # Demo Visualized Output
 # 1. Justification of the Prediction of the review query in terms of graph
