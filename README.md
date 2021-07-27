@@ -9,7 +9,7 @@ In this project, we are explaining the predictions made by Machine Learning Mode
 
  2. In order to get explanation accuracy for the both word explanation, and relational explanations respectively in Relational_Shap_Accuracy notebook shap_accuracy() command needs to be run. 
 # Run the Code to get the Non-Relational Explanation Accuracy
-# In Non_Relational_SHAP_Accuracy notebook SHAP_NON_RELATIONAL_EXPLANATION() command needs to be run.
+ In Non_Relational_SHAP_Accuracy notebook SHAP_NON_RELATIONAL_EXPLANATION() command needs to be run.
  
  
 
