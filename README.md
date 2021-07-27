@@ -8,6 +8,8 @@ In this project, we are explaining the predictions made by Machine Learning Mode
  1. To get the visualized explanation outcomes in Relational_SHAP_EXPP notebooke run the command Run_program_all().
 
  2. In order to get explanation accuracy for the both word explanation, and relational explanations respectively in Relational_Shap_Accuracy notebook shap_accuracy() command needs to be run. 
+# Run the Code to get the Non-Relational Explanation Accuracy
+# In Non_Relational_SHAP_Accuracy notebook SHAP_NON_RELATIONAL_EXPLANATION() command needs to be run.
  
  
 
@@ -27,6 +29,53 @@ Word_Explanation_Average_Accuracy_Shap
 Relational_Explanation_Average_Accuracy_Shap
 
 0.5006702073849252
+
+# Demo Non-Relational Explanation Accuracy
+
+# The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 5,20,35,50, and 75 and compute word explanation accuracy with the increase human feedback along with the increase of clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews.
+
+    #Considering Both Positive and Negative Reviews
+     Number of Clusters    Explanation Accuracy
+     5                      0.3402339181286558
+     20                     0.3708722741433033
+     35                     0.3791411042944796
+     50                     0.39511834319526673
+     75                     0.39515669515669494
+
+
+
+    #Considering only Positive  Reviews
+     Number of Clusters    Explanation Accuracy
+            5                 0.38309061488673174
+            20                0.4411483253588522
+            35                0.44210526315789517
+            50                0.46682242990654216
+            75                0.4693396226415094
+      
+      
+      
+     #Considering only Negative  Reviews
+     Number of Clusters    Explanation Accuracy
+             5                 0.22848101265822754
+             20                0.23973214285714242
+             35                0.2666666666666662
+             50                0.2713709677419351
+             75                0.2820143884892085
+            
+
+   # The Explanation Accuracy Without  Human Feedback: Clustering is not applied here. 
+       #Considering Both Positive and Negative Reviews
+         Explanation Accuracy:  0.29463507625272184
+         
+         
+        #Considering only Positive  Reviews
+         Explanation Accuracy:  0.32059925093633085
+         
+         
+         #Considering only Negative  Reviews
+         Explanation Accuracy:  0.25852864583333407
+
+
 
 
 
