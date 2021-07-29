@@ -40,7 +40,7 @@ Relational_Explanation_Average_Accuracy_Shap
      20                     0.3708722741433033
      35                     0.3791411042944796
      50                     0.39511834319526673
-     75                     0.39515669515669494
+     65                     0.39515669515669494
 
 
 
@@ -50,7 +50,7 @@ Relational_Explanation_Average_Accuracy_Shap
             20                0.4411483253588522
             35                0.44210526315789517
             50                0.46682242990654216
-            75                0.4693396226415094
+            65                0.4693396226415094
       
       
       
@@ -60,7 +60,7 @@ Relational_Explanation_Average_Accuracy_Shap
              20                0.23973214285714242
              35                0.2666666666666662
              50                0.2713709677419351
-             75                0.2820143884892085
+             65                0.2820143884892085
             
 
    # The Explanation Accuracy Without  Human Feedback: Clustering is not applied here. 
