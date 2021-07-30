@@ -1,14 +1,14 @@
 # Shap_Relational_Explanation
 
-# Shap_Relational_Exp
+# Shap_Relational_Exp with Review Data
 
 In this project, we are explaining the predictions made by Machine Learning Model using SHAP (https://github.com/slundberg/shap). Here we have tried to represent SHAP relational explanations. The Yelp review data is used in this experiment and the data is available in the link (https://drive.google.com/drive/folders/1o-UmrtdLdYVTvUhWd75khzSqppP1upPq?usp=sharing). Here 2000 reviews (1000 positive reviews and 1000 negative reviews) have been used in the experiment. 
 
-# Run the Code
+# Run the Code with Review Data
  1. To get the visualized explanation outcomes in Relational_SHAP_EXPP notebooke run the command Run_program_all().
 
  2. In order to get explanation accuracy for the both word explanation, and relational explanations respectively in Relational_Shap_Accuracy notebook shap_accuracy() command needs to be run. 
-# Run the Code to get the Non-Relational Explanation Accuracy
+# Run the Code to get the Non-Relational Explanation Accuracy with Review Data
  In Non_Relational_SHAP_Accuracy notebook shap_explanation_u,qrat_u=SHAP_NON_RELATIONAL_EXPLANATION() command needs to be run.
  
  # Run the Code for the Tweet Covid Data
@@ -17,14 +17,14 @@ In this project, we are explaining the predictions made by Machine Learning Mode
  
  
 
-# Demo Output 
+# Demo Output with Review Data
 Review 12 is Truly Predicted: Positive 
 
 SHAP Relational Explanation: '131', '687', '593', '703', '150', '601', '212', '142'. Here '131', '687', '593', '703', '150', '601', '212', and  '142' are related reviews to 12 and have positive contribution to the prediction. 
 
 SHAP Words Explanation: 'enjoy', 'drinks', 'show', 'champagne'. Here  are the word explanations
 
-# Demo Explanation Accuracy
+# Demo  Relational Explanation Accuracy with Review Data
 Word_Explanation_Average_Accuracy_Shap
 
 0.278422782037238
@@ -46,7 +46,7 @@ Relational_Explanation_Average_Accuracy_Shap
 
 0.7425742574257421
 
-# Demo Non-Relational Explanation Accuracy
+# Demo Non-Relational Explanation Accuracy with Review Data
 
  The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 5,20,35,50, and 65 and compute word explanation accuracy with the increase human feedback along with the increase of clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews.
 
@@ -79,7 +79,7 @@ Relational_Explanation_Average_Accuracy_Shap
              65                0.2820143884892085
             
 
-   # The Explanation Accuracy Without  Human Feedback: Clustering is not applied here. 
+   # The Explanation Accuracy Without  Human Feedback with Review Data: Clustering is not applied here. 
        #Considering Both Positive and Negative Reviews
          Explanation Accuracy:  0.29463507625272184
          
@@ -98,13 +98,13 @@ Relational_Explanation_Average_Accuracy_Shap
 The explanation accuracy is computed separately for the word explanations, and relational explanations respectively. The manuall self-annotated (by human) process are considered to generate standard word explanations per query. The nerural network based embedding (Doc2Vec) is used to generate the standard relational explanations per query. Here, the standard explanations are considered as true explanations for the query being truly predicted as a specifice class. We have computed the percentage of SHAP relational model's explanations match with the standard explanations, and represent as explanation accuracy. In order to avoid biasness, we have kept the number of explanations  equal for the both standard explanations and SHAP relational model's explanations while computing explanation accuracy. Specifically, we have used first 5 explanations for the SHAP relational model's explanations based on the shap values, and standard explanations respectively. 
 
 # Demo Visualized Output
-# 1. Justification of the Prediction of the review query in terms of graph
+# 1. Justification of the Prediction of the review query in terms of graph with Review Data
 The query review is currectly predicted as either positive or negative and from the relational graph as follows it is clear that, review 19 is truly predicted as negative as its related or connected review nodes either Samehotel or Sameuser relation are also negative reviews. 
 
 ![image](https://user-images.githubusercontent.com/25291998/126830625-d2cb30d0-09c5-46d3-9d96-ca2c24d1d649.png)
 
 
-# 2. Sameuser Relation
+# 2. Sameuser Relation with Review Data
 
 Here, we have the relational graph where the query 19 predicted as negative review connected to a node with respect to Sameuser relation
 
@@ -112,14 +112,14 @@ Here, we have the relational graph where the query 19 predicted as negative revi
 ![image](https://user-images.githubusercontent.com/25291998/126830658-c9abf7f3-8aac-4a86-adf1-4ad17dff9c21.png)
 
 
-# 3. Samehotel Relation
+# 3. Samehotel Relation with Review Data
 
 Here, we have the relational graph where the query 4 predicted as positive review connected to the nodes with respect to Samehotel relation
 
 
 ![image](https://user-images.githubusercontent.com/25291998/126830694-2ab18a34-21a7-40f9-9898-675cec65f06e.png)
 
-# 4. Word Explanations
+# 4. Word Explanations with Review Data
 
 Here are the words explanations by SHAP for the review 2 to be truly predicted as positive review:
 
