@@ -34,7 +34,8 @@ Relational_Explanation_Average_Accuracy_Shap
 
 0.5006702073849252
 
-# Demo Relational and Word Explanation Accuracy For the Tweet Covid-19 data where the inference is performed using SVM whether the tweet is Scientific and Non-Scientific tweets. Here we have used 667 tweets and SHAP produces both relational explanation and non-relational explanations. The relational explanations are Sameuser relations, it implies that a user wrote multiple tweets. 
+# Demo Relational and Word Explanation Accuracy 
+For the Tweet Covid-19 data where the inference is performed using SVM whether the tweet is Scientific and Non-Scientific tweets. Here we have used 667 tweets and SHAP produces both relational explanation and non-relational explanations. The relational explanations are Sameuser relations, it implies that a user wrote multiple tweets. 
 
 Word_Explanation_Average_Accuracy_Shap
 
