@@ -11,6 +11,10 @@ In this project, we are explaining the predictions made by Machine Learning Mode
 # Run the Code to get the Non-Relational Explanation Accuracy
  In Non_Relational_SHAP_Accuracy notebook shap_explanation_u,qrat_u=SHAP_NON_RELATIONAL_EXPLANATION() command needs to be run.
  
+ # Run the Code for the Tweet Covid Data
+ 
+ In Shap_Corona_Relational_Explanation notebook tweet_covid_relational_explanation() command needs to be run in a cell.
+ 
  
 
 # Demo Output 
@@ -29,6 +33,17 @@ Word_Explanation_Average_Accuracy_Shap
 Relational_Explanation_Average_Accuracy_Shap
 
 0.5006702073849252
+
+# Demo Relational and Word Explanation Accuracy For the Tweet Covid-19 data where the inference is performed using SVM whether the tweet is Scientific and Non-Scientific tweets. Here we have used 667 tweets and SHAP produces both relational explanation and non-relational explanations. The relational explanations are Sameuser relations, it implies that a user wrote multiple tweets. 
+
+Word_Explanation_Average_Accuracy_Shap
+
+0.5289999999999998
+
+
+Relational_Explanation_Average_Accuracy_Shap
+
+0.7425742574257421
 
 # Demo Non-Relational Explanation Accuracy
 
