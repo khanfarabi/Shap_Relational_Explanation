@@ -46,37 +46,38 @@ Relational_Explanation_Average_Accuracy_Shap
 
 0.7425742574257421
 
-# Demo Non-Relational Explanation Accuracy with Review Data
+# Demo Non-Relational Cluster based Human Feedback Explanation Accuracy with Review Data
 
- The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 5,20,35,50, and 65 and compute word explanation accuracy with the increase human feedback along with the increase of clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews.
+ The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 5,20,35,50, and 65 and compute word explanation accuracy with the increase human feedback along with the increase of clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews. In this experiment 400 reviews (200 positive, 200 negative) are used
 
     #Considering Both Positive and Negative Reviews
      Number of Clusters    Explanation Accuracy
-     5                      0.3402339181286558
-     20                     0.3708722741433033
-     35                     0.3791411042944796
-     50                     0.39511834319526673
-     65                     0.39515669515669494
+     5                    0.5145833333333336
+    20                    0.5145833333333336
+    35                    0.5098214285714288
+    50                    0.5098214285714288
+    65                    0.5014880952380953
+
 
 
 
     #Considering only Positive  Reviews
      Number of Clusters    Explanation Accuracy
-            5                 0.38309061488673174
-            20                0.4411483253588522
-            35                0.44210526315789517
-            50                0.46682242990654216
-            65                0.4693396226415094
+              5              0.5471264367816092
+             20              0.5471264367816092
+             35              0.5379310344827587
+             50              0.5379310344827587
+             65              0.5218390804597703
       
       
       
      #Considering only Negative  Reviews
      Number of Clusters    Explanation Accuracy
-             5                 0.22848101265822754
-             20                0.23973214285714242
-             35                0.2666666666666662
-             50                0.2713709677419351
-             65                0.2820143884892085
+             5           0.47962962962962963
+             20          0.47962962962962963
+             35          0.47962962962962963
+             50          0.47962962962962963
+             65           0.47962962962962963
             
 
    # The Explanation Accuracy Without  Human Feedback with Review Data: Clustering is not applied here. 
