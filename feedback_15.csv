@@ -1,16 +1,31 @@
-Review_ID,Class,Text,Label
-493,Positive,came recommendation apartment dining area downstairs special picked soft saltado chicken moist found filling half polished saltado tender overall friendly friends 
-597,Positive,spy occasions seated extremely pleasant helpful engaged soon go along squid absolutely chicken talking futile particular locally fairly anything palate addition placed duck fantastic marvelous fantastic food helpful 
-520,Positive,caught friendly service got recommended banquette best house waiter attentive polite delicious substantial delicious cant wait 
-668,Positive,great baking company sunday around prepared rush table wait tried pancakes st cured pancakes butter sweetness cheese mushrooms fillings light filling street also take day avoid long brunch 
-567,Positive,cc beef soup nam phuong order humble customers years must haves feeds good veggies fyi rice paper cost vermicelli crispy rolls add way around spring fyi peanuts gone something now portion size 
-1228,Negative,omg place trash everybody sample cuz stank place take trash club surrounded weirdest songs weird lookslike youre comfy stool chillin watch people dance pretty horrible body day lol will another sat actually 
-568,Positive,food sf bay upscale wall decor definitely gio rolls asian convenient lettuce slices pork classics well shell plate flavors etc dessert trying window blinded 
-550,Positive,wife since construction trip chance around given away crab pleasant evening nice setting bay enjoyed well nyc country dropping change foremost shrimp saying heavy handed shrimp still seems rush appetizer long major credit combination outrageous stop else bank atm better fees general suggestion plans go week crowds evening enjoy significant brooklyn phenomenal definitely back see things recommend 
-638,Positive,looooong waffles love items place sadly anticipate tooo came back damn wait hour friday thing located houses wait soooo remember back bring try fan happy 
-628,Positive,il pittore disappoint hostesses checked coats similar updated new decor offered bread breadsticks served die house ahi serrano pepper initially put tasted agnolotti several filled pillows bf addition served white shallots huge fan portion seriously little nutella filled chocolate doughnuts fried vanilla sauce also although housemade almond delish back try crab something 
-627,Positive,star food crab real duck agnolotti thought game given papardelle whic identical years across beautiful winter eat keeping place per dish live tables spaced distances side dinner guest 
-533,Positive,established proove posters wall plea soldiers around fine new also music everyone 
-672,Positive,looking dessert clinton since time pancake best ordered couple dinner best 
-490,Positive,boy food went two wonderful started empenadas good amount chicken meal girlfriend camarone potato sauce two friends also one heck split bucks good definitely hit friend gave organized pio crowded room allowed many customers however suffer lack daylight airflow girlfriend great utensils taken beg spoons eat waitress put really good food delicious chicken bit 
-718,Positive,know st baking best pancakes try fluffy rancheros admit dish wait good talk line suffer standing weather 
+Review_ID,Truly_Predicted_Class,Original_Text,Explanation,Label
+5,Positive,hungry near bank inside employee pleasant tried chicken sub jalapeã os drink returning ,pleasant chicken sub drink ,
+43,Negative,philly eaten place passage experience anything magical watering woman orders ordering particularly felt tried whose accents european whole rude customers never good far american wit onions cheese steak good think put absorbed grill short tried somewhere else time steak ,experience anything orders ordering tried ,
+26,Positive,bloody wanted early let owner urgently octopus house fried cod crostinis plate octopus sangria make every day fruit white pitcher waiter best pitcher hehe want red ,bloody early owner fried sangria ,
+30,Negative,everyone live philadelphia real always nasty steaks best cheesesteaks philly will ,everyone live real always steaks ,
+108,Positive,hour half came places sure ready bartender gave right love accent one ordered food bartender way spots philly next ,came places ready bartender right ,
+64,Negative,feedback given disappointing going bit think one line much shorter one really ,given disappointing going one much ,
+22,Positive,eat night ordered champagne sangria yum special sauce skirt arriero skirt steak best cooked meat garnish refreshing loved cherry pulpo la gallega server little chewy honestly texture bit maybe definitely tapas bread water tapas joints dishes cheaper end recommend advantage ,eat night sangria yum special ,
+56,Negative,tried set much piping beef flavor significant steak thing might bread make things disappointed things includes signs place country diversity felt terrible saying english italian political aside really anything appealing cheesesteak little completely ,tried much flavor steak thing ,
+10,Positive,based solely food came group night make large place parties people pre fix number appetizers authentic appetizers sub foody full carte dancing beautiful dancer around anyone flamenco date ,came group night large place ,
+29,Negative,past definitely missing cheesesteak oil oil onto negative feel robbed coming ,past cheesesteak oil onto ,
+2,Positive,place came open little time great efficient werent stay lattes meals vegetarian loved side downer portion side friend side ambiance watching though smaller didnt ,place came open little time ,
+36,Negative,want much gristle looks las go underwhelming assume fame lights rivalry whole italian go ,want much looks go underwhelming ,
+16,Positive,sf though reservations glad place pretty away gambas flavorful bacalao heavy fried normally pimientos piquillo tasty one spicy nothing unexpected empanadillas one stuffed really flavorful sangria amazing sangria good types tried favorite still red bartender helpful suggestions come mood ,though reservations glad place pretty ,
+40,Negative,hour come famous almost pretty beefier worth price big fast ,hour famous almost worth price ,
+18,Positive,authentic tapas cool relaxed atmosphere drink spanish ive three gimmick friends day week ,tapas relaxed drink spanish ive ,
+15,Negative,came recommendation coworker raving time ordered say expectations knew deliver edible suppose one disgusting best tasted highlight adventurous tiny baguette slices tinier fingers bad anything thing potato dish remember pepper stuffed menu two pepper server instead cod stuffing creamy liked mashed potatoes cheesy tasting insisted whatever another bf tasted taste peppers waitress said favorite cheated good doubt back las ramblas ,recommendation ordered say expectations knew ,
+21,Positive,flamenco fun service really think croquettas best stuffed peppers longer take ,flamenco fun service really think ,
+31,Negative,lady bread good steaks cheese okay nicer outside give hook ,bread good steaks okay outside ,
+78,Positive,wun wiz minute philly cheesesteak although think street exact entertaining frankly px watery baguette pieces makes solid ground ,philly although think street exact ,
+3,Negative,well pigging enough ruin food will frozen people used better edible ,food will better edible ,
+14,Positive,something put experience new tapas thought try low seating back ,new tapas try low seating ,
+57,Negative,review personal preference behemoths seemed classier strip disease soft onions massive onion sliced sandwich neighborhood quite borderline ghetto reed street kind want alone ,review personal soft onions onion ,
+7,Positive,kidney three different specials pretty chinese food ct tripe good definitely fried sucks intestine got brown care much will update ,different specials pretty definitely fried ,
+41,Negative,land transfatia people cheese speaking words reflection filthy seems people demographic seem speak spend surprise service rude people sandwich overpriced cheese decor looks upon tacky diarrhea stuff look square south pictures bad see around ,words reflection speak spend rude ,
+11,Positive,dinner unable make skirt virgin olive fried goat braised tail pitcher sangria make table place tight weekends wait ,dinner fried braised pitcher sangria ,
+58,Negative,reading philly half channel know hate sorry hate luie worse jarred wins sort collaboration pick dad love good throw together kitchen minute steaks ,half know hate worse sort ,
+8,Positive,one quietest food states nation say food visited many sub lettuce pepper salt taste buds corner also deli franchise really dine tasted watery staff interactive ,sub also really watery ,
+1,Negative,ok goat tomato spinach omelet actually hummus expensive pretty whole fine wrong plain though clearly capable ,ok goat spinach hummus whole ,
+0,Positive,many things first draw done really plenty space sit huge perfect ambience responsive absolutely nothing complain around also quick ,really plenty space perfect absolutely ,
+35,Negative,famous steak american onions huge order warned cheesesteak chopped cheese choice fame quality deteriorated went better great called better got sign rude mention bother opinion go hard food product money think brains ,famous steak onions huge order ,

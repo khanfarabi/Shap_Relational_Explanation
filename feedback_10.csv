@@ -1,11 +1,21 @@
-Review_ID,Class,Text,Label
-480,Positive,moved heard nice food wanted try service speedy ordered pisco ceviche classic try refreshing decent many three appetizer seafood tangy better authentic good difficult carnivorous friend solid great try ethnic crazy definitely recommend location slightly 
-656,Positive,brunch people almost eating outside entering overhear will two half expected depressing ready two bells ears pancakes also got maple side toast share heck pancakes nicely right amount cup pancakes deeeeelicious blueberry concoction sweet course butter crack issue fare plate ever one major cured must try poorly idk exactly maple bacon bacon taste way french toast try things drizzled sweet bits syrupped hardly enough toppings two large thankfully yet 
-566,Positive,actual door since closed glad completely consisted spring rolls noodles miraculously sweet enough bites 
-679,Negative,find really pancakes baking company pics really good finally pancakes approached pics different quiet bench imagined goods behind excited given menu consisted southern specialties course cornmeal catfish garlic mayo buttermilk chicken wait walnut pancakes heaven arrived looked decent catfish may breading turned okay think thing kale things heard wrong pancakes dry even maple outside outside bananas nearly pancake soft pancakes crispy slightly bananas decent syrup little whipped ask experience horrible pancakes opposite pancakes effort one thing way bags scones though sweet luckily found pancakes want pancakes brooklyn 
-678,Positive,st bakery still weeks ago crispy edges maple butter best find sometimes dishes outstanding eggs benedict pretty decent think going will bc people say similar similar good wrong last sitting top slight crisp grumble stick clinton baking happy 
-661,Positive,fluffy soft scrumptious sauce phenomenal perfectly bowl meatballs st clinton practice self long breakfast 
-532,Positive,bar find kick ass ally summer impressed actually clean one 
-672,Positive,looking dessert clinton since time pancake best ordered couple dinner best 
-554,Negative,stars average vietnamese par also vietnamese prices fresh crispy pho beef really reviews 
-562,Positive,needs bowl enjoy culinary treats vietnam restaurant place instead spring surprise ordered rice us also place intimidating places menu appealing palates will across place take night boy right great 
+Review_ID,Truly_Predicted_Class,Original_Text,Explanation,Label
+114,Positive,little pitt decided even pernil cuts came coffee side pork beans rice rice overly seasoned splash sauce oohhh food lively ,little decided pernil came coffee ,
+36,Negative,want much gristle looks las go underwhelming assume fame lights rivalry whole italian go ,want much looks go underwhelming ,
+11,Positive,dinner unable make skirt virgin olive fried goat braised tail pitcher sangria make table place tight weekends wait ,dinner fried braised pitcher sangria ,
+29,Negative,past definitely missing cheesesteak oil oil onto negative feel robbed coming ,past cheesesteak oil onto ,
+2,Positive,place came open little time great efficient werent stay lattes meals vegetarian loved side downer portion side friend side ambiance watching though smaller didnt ,place came open little time ,
+41,Negative,land transfatia people cheese speaking words reflection filthy seems people demographic seem speak spend surprise service rude people sandwich overpriced cheese decor looks upon tacky diarrhea stuff look square south pictures bad see around ,words reflection speak spend rude ,
+8,Positive,one quietest food states nation say food visited many sub lettuce pepper salt taste buds corner also deli franchise really dine tasted watery staff interactive ,sub also really watery ,
+15,Negative,came recommendation coworker raving time ordered say expectations knew deliver edible suppose one disgusting best tasted highlight adventurous tiny baguette slices tinier fingers bad anything thing potato dish remember pepper stuffed menu two pepper server instead cod stuffing creamy liked mashed potatoes cheesy tasting insisted whatever another bf tasted taste peppers waitress said favorite cheated good doubt back las ramblas ,recommendation ordered say expectations knew ,
+0,Positive,many things first draw done really plenty space sit huge perfect ambience responsive absolutely nothing complain around also quick ,really plenty space perfect absolutely ,
+37,Negative,rushed long long paid hour smiles looks feel hourly even treated ,rushed paid hour looks even ,
+12,Positive,went two place tucked ave going gambas ajillo anytime rest meal enjoyable pitcher sangria close prices reasonable area date ,place enjoyable pitcher sangria close ,
+30,Negative,everyone live philadelphia real always nasty steaks best cheesesteaks philly will ,everyone live real always steaks ,
+14,Positive,something put experience new tapas thought try low seating back ,new tapas try low seating ,
+3,Negative,well pigging enough ruin food will frozen people used better edible ,food will better edible ,
+23,Positive,food raul fantastic sure gets loud intimate convo spot nai spot ,fantastic loud intimate ,
+64,Negative,feedback given disappointing going bit think one line much shorter one really ,given disappointing going one much ,
+4,Positive,yet fair thursday forward quesidillas tasty food watch going restaurant week ,yet fair forward tasty ,
+1,Negative,ok goat tomato spinach omelet actually hummus expensive pretty whole fine wrong plain though clearly capable ,ok goat spinach hummus whole ,
+20,Positive,delicious sangria great place brought free rest set overall quick bite restaurant ,delicious sangria great place set ,
+40,Negative,hour come famous almost pretty beefier worth price big fast ,hour famous almost worth price ,

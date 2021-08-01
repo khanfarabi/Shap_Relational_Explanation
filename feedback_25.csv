@@ -1,26 +1,51 @@
-Review_ID,Class,Text,Label
-1172,Negative,ok yelpers let say biggest incredibly town food building speaks ribeye given never recommend ,0
-489,Positive,find two friends matador away effing waiter plate plate snausages tender sweet world sauce dip garlic comes laugh lucky twenty humble opinion ,1
-518,Positive,us cafe gitan fave brunch spots food michael cozy comfy wallpaper mixed lamps split arugula parm lemon fairly flavor glad dishes favorite peppery around twists whole version ,0
-597,Positive,spy occasions seated extremely pleasant helpful engaged soon go along squid absolutely chicken talking futile particular locally fairly anything palate addition placed duck fantastic marvelous fantastic food helpful ,0
-531,Positive,word old bad small number tables amateur looking hanging big pieces butcher paper back couple soup dollar vanish oh got chunk bread cup soup done sure leave know cold ear inn ,1
-716,Positive,place yes brutal waited hours sooooo really ridiculous go big group pancakes da blueberry pancakes perfect soft bacon sugar unlike else biscuits bit hard love place ,0
-688,Positive,introduced restaurant quite arrived ordered walnut well biscuits raspberry service return plastic ,0
-502,Positive,everyone will impressed ask first crowded trendy recommend matador combo green dessert still pio great one jackson heights ,1
-1613,Negative,give place decent come think owners order stains pet appears dirty dimsum great around lot oily place hit miss depends order ,1
-632,Positive,go want tucked away tavern local bar equally ordered food local craft burger perfectly wish room note took place downstairs food family place gayborhood ,0
-653,Negative,flay cursed point ordering sidewalk regular blueberry instead make types one higher orders constantly next line pancakes got years better make pancake good sometimes food pop ,0
-582,Positive,company able right outside fresh mozzarella cheese testament cooking heading corner gem time tuesday pants company bit wait pooches ,0
-552,Negative,beautiful shame going female crabs disgusting cold crabs took eat hey experience looking forward every time day come shape sad ambiance sick ,1
-485,Positive,great money portion sizes short job interesting franc island vineyard service prompt ,1
-1188,Negative,recommend anyone excited japanese food reading star yelp reviews restaurant request got favorite japanese scotch place shaves ice scotch rocks waitress responsive brought dish time dessert appalled night wagyu tasted standard ny strip waste something made home asian cast pre going soba seared proper couches spilled constantly comfortably especially took birthday expected ended tell hype wrapped around looking amazing goes bouley way ,1
-534,Positive,love well probably eat also wish salad especially orders think since really ,1
-1033,Negative,eats west hartford unfortunately average diner trips times open diner decker sandwiches also ,1
-595,Positive,quaint street ordered pulled fries nicely mushiness experienced places standards still really dessert ,1
-576,Negative,service friend third sit merely us short say works even wanted order let service lacked entire meal although vegetable best thing place came friend charged tip even seemed know cards left good meals will never go back ,1
-548,Negative,telling red eating entered flights stairs level feeling square head nautical seek uneasily shipped jersey add might great hard look bucket towel roll table overpriced park train go ,0
-426,Positive,easily one place deserve prime dutch blue sushi grab wait husband menu rotate time everyone think give years keep mind lot absolutely delicious particuarly adds kick much way favorite go bit couple delish delicious perfectly beat marrow chicken good light forget awhile realizing shrimp provencal creamy yum ,1
-698,Positive,want trust hype noon saturday brunch seated pricey items everyone think delish fluffiness favorite bacon perfected amount sweetness complements grits coffee think joint upon ,1
-623,Positive,terrific il pittore definitely great service fabulous relatively small dishes highly recommend quiet evening simple food front ,1
-655,Negative,delicious however walk capoeira also hang desert next outside based taking gave different wait time around seemed think observed seated waiting left ,1
-503,Positive,hands experience time saltado tender beef sautã tomatoes sauce white rice tres leches pio never good ,0
+Review_ID,Truly_Predicted_Class,Original_Text,Explanation,Label
+267,Positive,came back time years initial really unique dining review unnecessarily occurred actually seen leaves ,came back time years really ,
+15,Negative,came recommendation coworker raving time ordered say expectations knew deliver edible suppose one disgusting best tasted highlight adventurous tiny baguette slices tinier fingers bad anything thing potato dish remember pepper stuffed menu two pepper server instead cod stuffing creamy liked mashed potatoes cheesy tasting insisted whatever another bf tasted taste peppers waitress said favorite cheated good doubt back las ramblas ,recommendation ordered say expectations knew ,
+25,Positive,time food tasty tons staff friendly attentive drink wrong tapas ,time tasty tons friendly attentive ,
+3,Negative,well pigging enough ruin food will frozen people used better edible ,food will better edible ,
+7,Positive,kidney three different specials pretty chinese food ct tripe good definitely fried sucks intestine got brown care much will update ,different specials pretty definitely fried ,
+52,Negative,lives went brother foodies san francisco go trap aura due cheesesteak go right one split whiz one aside bread completely bland hear really ,went go trap due cheesesteak ,
+16,Positive,sf though reservations glad place pretty away gambas flavorful bacalao heavy fried normally pimientos piquillo tasty one spicy nothing unexpected empanadillas one stuffed really flavorful sangria amazing sangria good types tried favorite still red bartender helpful suggestions come mood ,though reservations glad place pretty ,
+58,Negative,reading philly half channel know hate sorry hate luie worse jarred wins sort collaboration pick dad love good throw together kitchen minute steaks ,half know hate worse sort ,
+125,Positive,dollar lomo onions rotisserie unlike one passaic nicer go restaurants ,rotisserie unlike nicer restaurants ,
+102,Negative,given chances due deck seem together pretty fried tenders chicken happens fried sauce meal within chance ,given due together meal ,
+18,Positive,authentic tapas cool relaxed atmosphere drink spanish ive three gimmick friends day week ,tapas relaxed drink spanish ive ,
+69,Negative,walked try delicious flavorful look appetizing flavor thumbs yet cheese onions disappoint pop ,walked flavorful look flavor onions ,
+181,Positive,savory fun drinks mediocre adventurous friend job done music though go write feel goes sdcc carbs plantains ,savory fun though write feel ,
+493,Negative,awful dance told favorable wanted minute know dishes came hot calamari said appetizer inverno burnt expect crispy dark know long also supposed egg ravioli one three runny yolk concept exceptional experience high small unnecessarily salt shaker find bath happened freshly addition horrendous chefs door stand sidewalk cellphones numerous hostess glass ignored wrapped chatting wine another note awful thought italian never true italian occupied excuse recommend place anyone will make disappointment ,awful told wanted minute know ,
+9,Positive,tapas damn san ordered price tapas ordered de de de chistorra codorniz steak tapas service tuesday crowd come coqueta venue places food par even rate ,tapas damn san de service ,
+89,Negative,going dinner night find plate chicken mini kid tasted panaeng almost carefully meat looking ,going find plate kid tasted ,
+20,Positive,delicious sangria great place brought free rest set overall quick bite restaurant ,delicious sangria great place set ,
+47,Negative,comes cheese city place compete known dumped gaudy international space another know cheese spot almost feel greasy slab roll go places higher quality prime ,another know spot almost roll ,
+23,Positive,food raul fantastic sure gets loud intimate convo spot nai spot ,fantastic loud intimate ,
+623,Negative,star star food wait said walked asked seating getting soon gave friend look went link restaurant gave meant control instead giving least appropriately seating meant us later next seating squished comfortable also another party showed way argued fit nicely shocked waited told treating giving now friend excited pancakes chocolate chunk banana pancakes forward friend omelette sugar cured maple okay pecan syrup pancakes maple butter everyone said friend better cured sure feel bacon food mind blowing ,star food said walked asked ,
+111,Positive,ordered bbq able pay delivery came chili dog grilled buttery pretty fact door guys ,bbq able came chili dog ,
+291,Negative,short though reservation ins ordered describe lasagne dish everyone hostess pleasant minutes time order long although side tasty design come hot manner place experience wish ,reservation ordered describe lasagne dish ,
+0,Positive,many things first draw done really plenty space sit huge perfect ambience responsive absolutely nothing complain around also quick ,really plenty space perfect absolutely ,
+39,Negative,fun first steak three without two yeh well past one leave bad ,first steak three two past ,
+2,Positive,place came open little time great efficient werent stay lattes meals vegetarian loved side downer portion side friend side ambiance watching though smaller didnt ,place came open little time ,
+29,Negative,past definitely missing cheesesteak oil oil onto negative feel robbed coming ,past cheesesteak oil onto ,
+4,Positive,yet fair thursday forward quesidillas tasty food watch going restaurant week ,yet fair forward tasty ,
+61,Negative,service weekday long sandwiches separate line sandwich okay nothing pricey getting meat comes also lacked ,sandwich okay nothing getting lacked ,
+28,Positive,last rare try sangria even time kind restaurant waiter bartender friendly presented explain watching network try ,try sangria time bartender friendly ,
+41,Negative,land transfatia people cheese speaking words reflection filthy seems people demographic seem speak spend surprise service rude people sandwich overpriced cheese decor looks upon tacky diarrhea stuff look square south pictures bad see around ,words reflection speak spend rude ,
+91,Positive,place byob right rittenhouse relatively thai meat service fast cute ensure red shrimp mussels wait back ,place right relatively meat service ,
+37,Negative,rushed long long paid hour smiles looks feel hourly even treated ,rushed paid hour looks even ,
+11,Positive,dinner unable make skirt virgin olive fried goat braised tail pitcher sangria make table place tight weekends wait ,dinner fried braised pitcher sangria ,
+43,Negative,philly eaten place passage experience anything magical watering woman orders ordering particularly felt tried whose accents european whole rude customers never good far american wit onions cheese steak good think put absorbed grill short tried somewhere else time steak ,experience anything orders ordering tried ,
+8,Positive,one quietest food states nation say food visited many sub lettuce pepper salt taste buds corner also deli franchise really dine tasted watery staff interactive ,sub also really watery ,
+56,Negative,tried set much piping beef flavor significant steak thing might bread make things disappointed things includes signs place country diversity felt terrible saying english italian political aside really anything appealing cheesesteak little completely ,tried much flavor steak thing ,
+5,Positive,hungry near bank inside employee pleasant tried chicken sub jalapeã os drink returning ,pleasant chicken sub drink ,
+96,Negative,go place something swear usually months another disappointed swear mean food plenty good today time grab coke server order disappointing details one plate slice person remove put trash hello waitressed year young bye ,go something swear another disappointed ,
+78,Positive,wun wiz minute philly cheesesteak although think street exact entertaining frankly px watery baguette pieces makes solid ground ,philly although think street exact ,
+57,Negative,review personal preference behemoths seemed classier strip disease soft onions massive onion sliced sandwich neighborhood quite borderline ghetto reed street kind want alone ,review personal soft onions onion ,
+21,Positive,flamenco fun service really think croquettas best stuffed peppers longer take ,flamenco fun service really think ,
+98,Negative,blogger happy pretty cheap pretty though food well priced extremely disappointed basic effort know opened trying items damn hard find ,cheap food extremely disappointed effort ,
+27,Positive,nai one tucked whose doors show cozy cellar bar enjoying whim seat suggested mango disappoint liked sangria order full pitcher sweet wonderfully boozy fresh night moving dolling tapas bars charge glass food eats spending leg portions serve ton fresh bread twosome sharing noteworthy spanish done well paprika asparagus melted noteable pimientos small munch eats sample ,doors show cozy bar suggested ,
+31,Negative,lady bread good steaks cheese okay nicer outside give hook ,bread good steaks okay outside ,
+19,Positive,tapas dishes happy broth cooked briney order servings putting bread order next time cooked divine garlic bread order well ham higher level mozzarella sticks even better much delicious second piece serrano combination ham toast tomato helped definitely love fried potato cut sweet bread order fried tapas dish fried starch lot flavor pass home fried probably element fill shrimp garlic sauce best night us garlic garlic undertones broth notes elevates little winner meatballs friend meatballs awful tapas sangria reminded wine probably lemon kept mistaking orange sangria taste hints probably buzz since venieros across street us night ton sassy eachother jar hot little crack actually hunt find fill ended around great come tapas back eatings ,tapas dishes happy broth cooked ,
+51,Negative,flashy close trust philly cheesesteak trap neon ranked city câ one gonna make watch movies rambo right ,trust cheesesteak trap one make ,
+115,Positive,wow place rave tiny mom maybe par super girls table full enjoyed pernil everytime grabbed perfectly inside chicken light reviews time open second linger phone table ran friendly food ,place super full enjoyed pernil ,
+1,Negative,ok goat tomato spinach omelet actually hummus expensive pretty whole fine wrong plain though clearly capable ,ok goat spinach hummus whole ,
+160,Positive,remember somehow long best creams york ricotta flavors wallpaper paste house butters kitchen feel patio morning outside free sat york restaurants never offer eye makes service someone molecules faster kitchen state love love love hypertension ,somehow long best york ricotta ,
+33,Negative,often copy restaurant steak bun good good now completely mediocre say fast dollar menu want ,often restaurant steak good now ,
