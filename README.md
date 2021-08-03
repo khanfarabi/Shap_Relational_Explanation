@@ -58,7 +58,7 @@ Relational_Explanation_Average_Accuracy_Shap
 
 # Demo Non-Relational Cluster based Human Feedback Explanation Accuracy with Review Data
 
- The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 5,10,15,20, and 25 and compute word explanation accuracy with the increase human feedback along with the increase of clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews. In this experiment 400 reviews (200 positive, 200 negative) are used
+ The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 5,10,15,20, and 25 and compute word explanation accuracy with the increase human feedback along with the increase of clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews. In this experiment 1000 reviews (500 positive, 500 negative) are used
 
     #Considering Both Positive and Negative Reviews
      Number of Clusters    Explanation Accuracy
