@@ -9,7 +9,17 @@ In this project, we are explaining the predictions made by Machine Learning Mode
 
  2. In order to get explanation accuracy for the both word explanation, and relational explanations respectively in Relational_Shap_Accuracy notebook shap_accuracy() command needs to be run. 
 # Run the Code to get the Non-Relational Explanation Accuracy with Review Data
- In Non_Relational_SHAP_Accuracy notebook shap_explanation_u,qrat_u=SHAP_NON_RELATIONAL_EXPLANATION() command needs to be run.
+ 1. In Non_Relational_SHAP_Accuracy notebook shap_explanation_u,qrat_u=SHAP_NON_RELATIONAL_EXPLANATION() command needs to be run.
+ 2. To get updated results in Non_Relational_Shap_Update notebook shapp_all_acc() command needs to be run after setting the path of the files in non_relational_shap_data folder in notebook. In order to generate new human feedback form the following commands need to be run respectively:
+
+ 1)s_words,stopwords,WORDS,qrat,H11,Rev_text_map=data_processing()
+ 2)acc,acc_p,acc_n,shap_exp,shap_values,ann,corpus_train,corpus_test,y_train,y_test,p,qrat,WORDSt=Shap_Explanation_Engine(s_words,stopwords,WORDS,qrat,H11,Rev_text_map)
+
+ 3)for kk in range(5,26,5):
+        final_clu=cluster_feed(kk,qrat,WORDSt,shap_exp,Rev_text_map)
+        cl[kk]=final_clu
+4)for k in cl:
+    feedback_form(k,WORDSt,qrat,cl[k],shap_exp)
  
  # Run the Code for the Tweet Covid Data
  
@@ -48,36 +58,36 @@ Relational_Explanation_Average_Accuracy_Shap
 
 # Demo Non-Relational Cluster based Human Feedback Explanation Accuracy with Review Data
 
- The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 5,20,35,50, and 65 and compute word explanation accuracy with the increase human feedback along with the increase of clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews. In this experiment 400 reviews (200 positive, 200 negative) are used
+ The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 5,10,15,20, and 25 and compute word explanation accuracy with the increase human feedback along with the increase of clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews. In this experiment 400 reviews (200 positive, 200 negative) are used
 
     #Considering Both Positive and Negative Reviews
      Number of Clusters    Explanation Accuracy
-     5                    0.5145833333333336
-    20                    0.5145833333333336
-    35                    0.5098214285714288
-    50                    0.5098214285714288
-    65                    0.5014880952380953
+     5                    0.3642857142857144
+    10                    0.41567460317460314
+    15                    0.5072425828970327
+    20                    0.6132944228274971
+    25                    0.6404102564102573
 
 
 
 
     #Considering only Positive  Reviews
      Number of Clusters    Explanation Accuracy
-              5              0.5471264367816092
-             20              0.5471264367816092
-             35              0.5379310344827587
-             50              0.5379310344827587
-             65              0.5218390804597703
+              5              0.3812500000000001
+             10              0.4376666666666666
+             15              0.45115740740740784
+             20              0.5679487179487178
+             25              0.6536062378167641
       
       
       
      #Considering only Negative  Reviews
      Number of Clusters    Explanation Accuracy
-             5           0.47962962962962963
-             20          0.47962962962962963
-             35          0.47962962962962963
-             50          0.47962962962962963
-             65           0.47962962962962963
+             5           0.2625
+             10          0.3833333333333333
+             15          0.67907801418439713
+             20          0.6833333333333335
+             25          0.6257575757575755
             
 
    # The Explanation Accuracy Without  Human Feedback with Review Data: Clustering is not applied here. 
