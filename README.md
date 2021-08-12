@@ -136,6 +136,11 @@ Relational_Explanation_Average_Accuracy_Shap
      55                   0.7857142857142857
      
      
+     
+     
+     
+     
+     
      If we observe the above explanation accuracy allong with the increase with the clusters, we see that, the explanation accuracy remains same even with increase of the clusters specifically in the case where we consider both the positive and negative reviews together. If we consider only positive reviews we see that for the clusters 15,25, and 35 the accuracy in increasing state;however for the clusters 45 and 55 the accuracy little bit low and in case of the negative reviews we see the variations of the acuuracy. This is happening because we are taking mulltiple feedbacks and based on the feedbacks we are generating new explanations. Here are the feedback is taking against the explanations of the original data and the user gives 1 if the explanation is good otherwise 0. Therefore, we keep the features (words) similar to the explanations ranked as 1 otherwise removed if it is 0. As the human opinion varies the new explanations are also varies. That is why we see the variation in the accuracy. 
 
             
